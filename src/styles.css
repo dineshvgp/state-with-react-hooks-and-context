@@ -11,4 +11,5 @@ button {
   color: white;
   outline: none;
   cursor: pointer;
+  margin: 20px;
 }

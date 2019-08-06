@@ -11,9 +11,7 @@ const ThemedButton = () => {
       onClick={() =>
         dispatch({
           type: "changeTheme",
-          newTheme: {
-            primary: theme.primary === "steelblue" ? "hotpink" : "steelblue"
-          }
+          newTheme: theme.primary === "steelblue" ? "hotpink" : "steelblue"
         })
       }
     >
