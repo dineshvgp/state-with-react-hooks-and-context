@@ -1,5 +1,5 @@
 import React from "react";
-import { useStateValue } from "./state";
+import { useStateValue } from "../state";
 
 const ThemedButton = () => {
   const [{ theme }, dispatch] = useStateValue();

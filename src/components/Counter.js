@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
-import { useStateValue } from "./state";
+import { useStateValue } from "../state";
 
 const Counter = () => {
   const [{ counter }, dispatch] = useStateValue();
   return (
     <Fragment>
-      <div> You have clicked {counter.count} times </div>
+      <div> You have changed {counter.count} times </div>
       <button
         style={{ backgroundColor: "teal" }}
         onClick={() =>
