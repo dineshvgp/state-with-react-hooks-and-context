@@ -17,3 +17,9 @@ button {
   cursor: pointer;
   margin: 20px;
 }
+
+.user-details {
+  width: 240px;
+  text-align: left;
+  margin: 0 auto;
+}
